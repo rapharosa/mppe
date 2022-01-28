@@ -15,11 +15,46 @@
     </header>
     <main class="conteudo">
         <form class="formulario">
-            <label class="descricao-input" for="tensao">Tensão</label>
-            <input class="input" id="tensao" type="number">
+            <fieldset class="secoes-formulario">
+                <legend>Qual tensão e corrente do painel no momento?</legend>
+                <label class="descricao-input" for="tensao">Tensão</label>
+                <input class="input" id="tensao" type="text">
 
-            <label class="descricao-input" for="Corrente">Corrente</label>
-            <input class="input" id="Corrente" type="number">
+                <label class="descricao-input" for="Corrente">Corrente</label>
+                <input class="input" id="Corrente" type="text">
+            </fieldset>
+
+            <fieldset class="secoes-formulario">
+                <legend>Os componentes do painel estão aquecendo?</legend>
+                <label for="Sim">Sim
+                    <input id="Sim" type="radio" name="temperatura">
+                </label>
+                <label for="Não">Não
+                    <input id="Não" type="radio" name="temperatura">
+                </label>
+            </fieldset>
+
+            <fieldset class="secoes-formulario">
+                <legend>O painel está limpo?</legend>
+                <label for="Sim">Sim
+                    <input id="Sim" type="radio" name="limpeza">
+                </label>
+                <label for="Não">Não
+                    <input id="Não" type="radio" name="limpeza">
+                </label>
+            </fieldset>
+
+            <fieldset class="secoes-formulario">
+                <legend>Foi conferido o aperto das conexões esse ano?</legend>
+                <label for="Sim">Sim
+                    <input id="Sim" type="radio" name="aperto-conexoes">
+                </label>
+                <label for="Não">Não
+                    <input id="Não" type="radio" name="aperto-conexoes">
+                </label>
+            </fieldset>
+
+
         </form>
 
     </main>
