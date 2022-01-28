@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.corpo{
+    display: flex;
+    flex-direction: column;
+}
+
+.cabecalho {
+    background-color: #292929;
+}
+
+.navegacao {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 2vw;
+}
+
+.links-nav {
+    color: #e0e400;
+    font-size: 3vh;
+    text-decoration: none;
+}
