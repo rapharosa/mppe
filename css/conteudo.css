@@ -1,6 +1,6 @@
 .secoes-formulario {
     margin: 3vw;
-    display: flex;
+    display: block;
     flex-direction: row;
     align-items: baseline;
 }

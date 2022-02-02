@@ -1,3 +1,5 @@
 .titulo-pagina {
+    display: block;
+    margin: 0 auto;
     color: var(--azul-escuro);
 }
