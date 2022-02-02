@@ -21,7 +21,7 @@ body {
 }
 
 .select {
-    background-color: var(--verde-claro);
+    background-color: var(--amarelo-claro);
     color:var(--azul-escuro);
     font-size: 20px;
     margin-bottom: 2vw;
@@ -30,7 +30,7 @@ body {
 
 .input-texto {
     font-size: 20px;
-    background-color: var(--verde-claro);
+    background-color: var(--amarelo-claro);
     color:var(--azul-escuro);
     margin-bottom: 2vw;
     width: 25%;
@@ -44,4 +44,17 @@ body {
 .input-radio {
     font-size: 20px;
     width: 5vw;
+}
+
+.submit {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 8rem;
+    color: var(--azul-escuro);
+    font-size: 20px;
+    background-color: var(--amarelo-claro);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #000000;
+    border: none;
 }
