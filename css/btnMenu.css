@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     gap: 0 4rem;
-    background-color: var(--amarelo-cinza);
+    background-color: var(--amarelo-claro);
 }
 
 .btnMenu {
@@ -19,6 +19,6 @@
 }
 
 .btnMenu_close {
-    background-color: var(--azul-cinza-escuro);
+    background-color: var(--azul-escuro);
     background-image: url(../img/icons/menu-branco.svg);
 }

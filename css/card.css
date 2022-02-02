@@ -1,5 +1,5 @@
 .conteudo {
-    background-color: var(--azul-cinza-escuro);
+    background-color: var(--azul-escuro);
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -17,7 +17,7 @@
 
 .card-item {
     display: flex;
-    background-color: var(--amarelo-cinza);
+    background-color: var(--amarelo-claro);
     border-radius: 10px;
     margin: 1vw;
     width: 7rem;
@@ -30,7 +30,7 @@
 .card-item-action {
     align-self: center;
     font-size: 20px;
-    color: var(--azul-cinza-escuro);
+    color: var(--azul-escuro);
     margin: 3vw;
     padding: 3vw;
 }
