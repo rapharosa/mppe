@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/btnMenu.css">
     <link rel="stylesheet" href="css/conteudo.css">
     <link href="https://fonts.googleapis.com/css2?family=Teko:wght@400;700&display=swap" rel="stylesheet">
+    <script src="js/amrazenando-dados.js" defer></script>
     
 </head>
 <body>
@@ -48,10 +49,10 @@
 
             <fieldset class="secoes-formulario">
                 <legend class="legenda">Qual tensão e corrente do painel no momento?</legend>
-                <label class="descricao-input-texto" for="tensao">Tensão</label>
+                <label class="descricao-input-texto" for="tensao" name="tensao">Tensão</label>
                 <input class="input-texto" id="tensao" type="text">
 
-                <label class="descricao-input-texto" for="Corrente">Corrente</label>
+                <label class="descricao-input-texto" for="Corrente" name="corrente">Corrente</label>
                 <input class="input-texto" id="Corrente" type="text">
             </fieldset>
 
@@ -85,7 +86,7 @@
                 </label>
             </fieldset>
 
-            <button class="submit" type="submit">Enviar</button>
+            <button class="submit" type="submit" id="send">Enviar</button>
         </form>
     </main>
 
