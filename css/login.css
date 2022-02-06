@@ -79,6 +79,7 @@ body {
 }
 
 .input {
+    font-size: 1.2em;
     position: relative;
     width: 100%;
     border: none;
