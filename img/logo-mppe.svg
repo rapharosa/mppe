@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <!-- Creator: CorelDRAW 2020 (64 Bit) -->
-<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="800px" height="800px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
-viewBox="0 0 800 800"
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="310px" height="460px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 310 460"
  xmlns:xlink="http://www.w3.org/1999/xlink"
  xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
  <defs>
   <style type="text/css">
    <![CDATA[
+    .str0 {stroke:#FFF08F;stroke-width:3;stroke-miterlimit:22.9256}
     .fil0 {fill:#1B2A33}
     .fil1 {fill:#FFF08F}
    ]]>
@@ -15,20 +16,8 @@ viewBox="0 0 800 800"
  </defs>
  <g id="Camada_x0020_1">
   <metadata id="CorelCorpID_0Corel-Layer"/>
-  <g id="_1562696480560">
-   <rect class="fil0" x="250" y="215.5" width="300" height="370" rx="25" ry="26.85"/>
-   <rect class="fil1" x="260" y="225.5" width="280" height="350" rx="30" ry="32.66"/>
-   <polygon class="fil0" points="412.12,382.99 420.21,280.6 333.99,428.01 395.96,426.1 377.1,520.4 466.01,382.99 "/>
-   <g>
-    <rect class="fil0" x="292.96" y="575.5" width="34.29" height="51" rx="10" ry="6.3"/>
-    <rect class="fil0" x="382.75" y="575.5" width="34.29" height="51" rx="10" ry="6.3"/>
-    <rect class="fil0" x="472.75" y="575.5" width="34.29" height="51" rx="10" ry="6.3"/>
-   </g>
-   <g>
-    <rect class="fil0" x="292.96" y="173.5" width="34.29" height="51" rx="10" ry="6.3"/>
-    <rect class="fil0" x="382.75" y="173.5" width="34.29" height="51" rx="10" ry="6.3"/>
-    <rect class="fil0" x="472.75" y="173.5" width="34.29" height="51" rx="10" ry="6.3"/>
-   </g>
-  </g>
+  <path class="fil0 str0" d="M82.25 415.5l0 31c0,5.5 -4.5,10 -10,10l-14.29 0c-5.5,0 -10,-4.5 -10,-10l0 -31 -17.96 0c-13.75,0 -25,-11.25 -25,-25l0 -320c0,-13.75 11.25,-25 25,-25l18.01 0c-0.03,-0.33 -0.05,-0.66 -0.05,-1l0 -31c0,-5.5 4.5,-10 10,-10l14.29 0c5.5,0 10,4.5 10,10l0 31c0,0.34 -0.02,0.67 -0.05,1l55.6 0c-0.03,-0.33 -0.05,-0.66 -0.05,-1l0 -31c0,-5.5 4.5,-10 10,-10l14.29 0c5.5,0 10,4.5 10,10l0 31c0,0.34 -0.02,0.67 -0.05,1l55.81 0c-0.03,-0.33 -0.05,-0.66 -0.05,-1l0 -31c0,-5.5 4.5,-10 10,-10l14.29 0c5.5,0 10,4.5 10,10l0 31c0,0.34 -0.02,0.67 -0.05,1l18.01 0c13.75,0 25,11.25 25,25l0 320c0,13.75 -11.25,25 -25,25l-17.96 0 0 31c0,5.5 -4.5,10 -10,10l-14.29 0c-5.5,0 -10,-4.5 -10,-10l0 -31 -55.71 0 0 31c0,5.5 -4.5,10 -10,10l-14.29 0c-5.5,0 -10,-4.5 -10,-10l0 -31 -55.5 0z"/>
+  <rect class="fil1" x="15" y="55.5" width="280" height="350" rx="30" ry="32.66"/>
+  <polygon class="fil0" points="167.12,212.99 175.21,110.6 88.99,258.01 150.96,256.1 132.1,350.4 221.01,212.99 "/>
  </g>
 </svg>

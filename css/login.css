@@ -6,6 +6,10 @@ body {
     background-color: var(--azul-escuro);
 }
 
+.imagem-logo {
+    display: none;
+}
+
 .container {
     position: relative;
     width: 350px;
@@ -116,4 +120,12 @@ label input {
     text-transform: uppercase;
     letter-spacing: 1px;
     font-size: 0.85em;
+}
+
+@media screen and (min-width: 768px) {
+    .imagem-logo {
+        display: block;
+        width: 30%;
+        padding-right: 5vw;
+    }
 }
