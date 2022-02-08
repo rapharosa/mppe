@@ -1,1 +1,4 @@
-gsap.from('nav-logo', {opacity: 0, duration: 1, delay: 2, y:10})
+gsap.from('.div, .nav', {opacity: 0, duration: 0.5, delay: 0.7, y:10})
+
+gsap.from('.titulo-cabecalho, .logo cabecalho, .nav-item', 
+    {opacity: 0, duration: 0.5, delay: 0.7, y: 30, stagger: 0.2})

@@ -1,0 +1,49 @@
+body {
+    font-family: 'Teko', sans-serif;
+    background-color: var(--azul-escuro);
+}
+
+.cabecalho {
+    font-size: 1.25em;
+    background-color: var(--amarelo-claro);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1vw;
+}
+
+.div{
+    display: flex;
+    gap: 2vw;
+}
+
+.titulo-cabecalho {
+    color: var(--azul-escuro);
+}
+
+.logo-cabecalho {
+    width: 5%;
+}
+
+.nav {
+    display: flex;
+    gap: 2vw;
+}
+
+.nav-item {
+    color: var(--azul-escuro);
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.titulo {
+    font-weight: 700;
+    font-size: 5rem;
+    color: var(--amarelo-claro);
+}
