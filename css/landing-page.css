@@ -1,6 +1,6 @@
 body {
     font-family: 'Teko', sans-serif;
-    background-color: var(--azul-escuro);
+    background: linear-gradient(#283d4b, var(--azul-escuro)) ;
 }
 
 .cabecalho {
@@ -9,21 +9,8 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
-    padding: 1vw;
-}
-
-.div{
-    display: flex;
-    gap: 2vw;
-}
-
-.titulo-cabecalho {
-    color: var(--azul-escuro);
-}
-
-.logo-cabecalho {
-    width: 5%;
+    justify-content: space-between;
+    padding: 1vw 5vw;
 }
 
 .nav {
@@ -33,17 +20,99 @@ body {
 
 .nav-item {
     color: var(--azul-escuro);
+    text-shadow: 1px 1px 1px var(--verde-claro);
+}
+
+.div{
+    display: flex;
+    gap: 2vw;
+    justify-content: end;
+}
+
+.titulo-cabecalho {
+    color: var(--azul-escuro);
+    text-shadow: 1px 1px 1px var(--verde-claro);
+}
+
+.logo-cabecalho {
+    width: 5%;
 }
 
 .conteudo-principal {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 5vw;
+    background-image: url(../img/contatores-medicoes.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 100%;
+}
+
+.conteudo-principal-logo {
+    width: 10rem;
+}
+
+.conteudo-principal-div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
 }
 
 .titulo {
+    text-shadow: 1px 1px 2px black;
     font-weight: 700;
-    font-size: 5rem;
+    font-size: 8rem;
     color: var(--amarelo-claro);
+}
+
+.descricao {
+    font-size: 2rem;
+    color: var(--amarelo-claro);
+    text-shadow: 1px 1px 2px black;
+}
+
+.conteudo-sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--amarelo-claro);
+    text-align: center;
+}
+
+.explicacao {
+    text-align: center;
+    width: 70%;
+    font-size: 2em;
+    margin-top: 2vw;
+    border-bottom: 1px solid var(--amarelo-claro);
+}
+
+.explicacao-div {
+    margin: 2em 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.papelada {
+    padding: 0 2vw;
+    width: 40%;
+}
+
+.texto {
+    margin: 1vw;
+    width: 70%;
+    font-size: 1.5em;
+}
+
+.rodape {
+    background-color: #1d1d1d;    
+}
+
+.rodape-logo {
+    display: block;
+    margin: 0 auto;
+    width: 3em;
+    padding: 1em 0;
 }
