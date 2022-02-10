@@ -95,13 +95,12 @@ body {
 }
 
 .explicacao-div {
-    margin: 2em 0;
+    margin: 2vw 1vw;
     display: flex;
     justify-content: space-around;
 }
 
 .papelada {
-    margin-right: 1vw;
     width: 40%;
 }
 
