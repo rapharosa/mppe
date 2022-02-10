@@ -5,3 +5,5 @@ Trabalhei muitos anos da minha vida com manutenção elétrica preventiva e corr
 Duas dessas empresas que trabalhei tinham esse processo dentro da manutenção preventiva, e todos os meses eram impressas centenas de folhas de papel, tendo em vista que eram mais de 200 painéis elétricos nas instalações.
 
 Pensando nisso quis desenvolver um relatório onde não fosse mais necessário a impressão desses e permitisse que fossem enviados em tempo real.
+
+link de acesso ao projeto: https://rapharosa.github.io/mppe/landing-page.html
