@@ -22,6 +22,10 @@ body {
     color: var(--azul-escuro);
     text-shadow: 1px 1px 1px var(--verde-claro);
 }
+.nav-item:hover {
+    color: var(--verde-claro);
+    text-shadow: 1px 1px 1px var(--azul-escuro);
+}
 
 .div{
     display: flex;
@@ -42,15 +46,16 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 5vw;
+    padding: 2.75vw;
     background-image: url(../img/contatores-medicoes.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
-    background-position: 100%;
+    background-position: inherit;
 }
 
 .conteudo-principal-logo {
-    width: 10rem;
+    width: 20vw;
+    margin: 0 3vw;
 }
 
 .conteudo-principal-div {
@@ -63,12 +68,13 @@ body {
 .titulo {
     text-shadow: 1px 1px 2px black;
     font-weight: 700;
-    font-size: 8rem;
+    font-size: 20vw;
     color: var(--amarelo-claro);
 }
 
 .descricao {
-    font-size: 2rem;
+    font-size: 5vw;
+    text-align: end;
     color: var(--amarelo-claro);
     text-shadow: 1px 1px 2px black;
 }
@@ -117,7 +123,7 @@ body {
 
 .titulo-contato {
     color: var(--amarelo-claro);
-    font-size: 4vw;
+    font-size: 8vw;
     text-shadow: 1px 1px 2px black;
 }
 
@@ -164,6 +170,32 @@ body {
 .rodape-logo {
     display: block;
     margin: 0 auto;
-    width: 2em;
+    width: 2em;   
+}
+
+@media screen and (max-width: 768px) {
+    .nav {
+        gap: 4vw;
+    }
     
+    .logo-cabecalho {
+        display: none;
+    }
+    
+    .conteudo-principal {
+        height: 40vh;
+        align-items: center;
+        background-size: 130%;
+    }
+    
+    .descricao {
+        display: none;
+    }
+
+    .explicacao {
+        font-size: 8vw;
+    }
+    .papelada {
+        display: none;
+    }
 }

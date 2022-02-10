@@ -1,6 +1,7 @@
 body {
     background-color: var(--azul-escuro);
 }
+
 .secoes-formulario {
     color: var(--amarelo-claro);
     margin: 3vw;
