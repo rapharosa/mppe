@@ -1,6 +1,6 @@
 body {
     font-family: 'Teko', sans-serif;
-    background: linear-gradient(#283d4b, var(--azul-escuro)) ;
+    background: linear-gradient(#346180, var(--azul-escuro)) ;
 }
 
 .cabecalho {
@@ -82,7 +82,6 @@ body {
 }
 
 .explicacao {
-    text-align: center;
     width: 70%;
     font-size: 2em;
     margin-top: 2vw;
@@ -101,18 +100,70 @@ body {
 }
 
 .texto {
-    margin: 1vw;
+    text-align: left;
+    margin: 1vw 3vw;
     width: 70%;
     font-size: 1.5em;
 }
 
+.contato {
+    border-top: 1px solid var(--amarelo-claro);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3vw;
+}
+
+.titulo-contato {
+    color: var(--amarelo-claro);
+    font-size: 4vw;
+    text-shadow: 1px 1px 2px black;
+}
+
+.box {
+    display: flex;
+}
+
+.box-icons {
+    position: relative;
+    min-width: 40px;
+    height: 40px;
+    background-color: var(--amarelo-claro);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin: 0 1vw;
+    color: var(--azul-escuro);
+    font-size: 1.15em;
+    box-shadow: 5px 5px 7px rgba(0,0,0,0.25),
+    inset 2px 2px 5px rgba(255,255,255,0.2),
+    inset -3px -3px 5px rgba(0,0,0,0.5);
+    transition: 0.3s;
+}
+
+.box-icons:hover {
+    transform: scale(1.2);
+    color:var(--amarelo-claro);
+    background-color: var(--azul-escuro);
+}
+
 .rodape {
-    background-color: #1d1d1d;    
+    background-color: var(--azul-escuro);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em 0;    
+}
+
+.nome-rodape {
+    color: var(--amarelo-claro);
 }
 
 .rodape-logo {
     display: block;
     margin: 0 auto;
-    width: 3em;
-    padding: 1em 0;
+    width: 2em;
+    
 }

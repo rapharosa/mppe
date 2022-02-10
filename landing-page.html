@@ -13,8 +13,8 @@
     <header class="cabecalho">
         <nav class="nav">
             <a class="nav-item" href="login.html">Login</a>
-            <a class="nav-item" href="#">Sobre</a>
-            <a class="nav-item" href="#">Contato</a>
+            <a class="nav-item" href="#sobre">Sobre</a>
+            <a class="nav-item" href="#contato">Contato</a>
         </nav>
         <div class="div">
             <h3 class="titulo-cabecalho">MPPE</h3>
@@ -32,22 +32,37 @@
         </section>
 
         <section class="conteudo-sobre">
-            <h3 class="explicacao">Somos uma empresa que simplificou a manutenção elétrica!</h3>
+            <h3 id="sobre" class="explicacao">Somos uma empresa que simplificou a manutenção elétrica!</h3>
             <div class="explicacao-div">
                 <p class="texto">Nós, da MPPE (Manutenção Preventiva em Paineis Eletricos), 
                 atuamos de forma simples e transparente, desenvolvemos um metodo de manutenção, onde
-                os relatorios são gerados digitalmente e em tempo real!<br>Nossos relatorios deixam expecificam as manuteções, justificam a necessidade
-                da manutenção e ainda fornece o custo de manutenção em suas instalações.</p>
-                <img class="papelada" src="img/papelada.jpg" alt="Imagem de relatorios empilhados">
+                os relatorios são gerados digitalmente e em tempo real!<br>
+                Nossos relatorios deixam expecificam as manuteções, justificam a necessidade
+                da manutenção e ainda fornece o custo de manutenção em suas instalações.<br><br>
+                Acabe com a papelada, e se modernize com relatorios digitais! Venha para a MPPE!
+                </p>
+                <img class="papelada" src="img/papelada-rejected.jpg" alt="Imagem de relatorios empilhados">
             </div>
-            
+        </section>
+        <section id="contato" class="contato">
+            <h2 class="titulo-contato">Entre em contato conosco</h2>
+            <div class="box">
+                <div class="box-icons"><ion-icon name="logo-facebook"></ion-icon></div>
+                <div class="box-icons"><ion-icon name="logo-instagram"></ion-icon></div>
+                <div class="box-icons"><ion-icon name="logo-google"></ion-icon></div>
+                <div class="box-icons"><ion-icon name="logo-linkedin"></ion-icon></div>
+            </div>
+
         </section>
     </main>
     <footer class="rodape">
+        <h3 class="nome-rodape">MPPE</h3>
         <img class="rodape-logo" src="img/logo-mppe.svg" alt="Logo da MPPE">
     </footer>
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
     <script src="js/gsap-animation.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
